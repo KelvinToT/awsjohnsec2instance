@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "awsjohnsec2instance"
+  description: This a AWS VM
+spec:
+  type: AWS
+  owner: user:guest
+  lifecycle: experimental
